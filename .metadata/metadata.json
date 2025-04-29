@@ -1,0 +1,13 @@
+{
+  "name" : "Krone und Vaterland",
+  "id" : "",
+  "version" : "1.0.0",
+  "game_id" : "victoria3",
+  "picture" : "thumbnail.png",
+  "supported_game_version" : "1.8.*",
+  "short_description" : "German Flavor Expansion Mod",
+  "tags" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
