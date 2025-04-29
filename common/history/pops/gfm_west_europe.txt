@@ -1,0 +1,18 @@
+﻿POPS = {
+	s:STATE_CATTENOM_BASSIN = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 209450
+			}
+			create_pop = {
+				culture = north_german
+				size = 4000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 1000
+			}
+		}
+	}
+}
