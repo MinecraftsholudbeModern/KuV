@@ -1,12 +1,4 @@
 ﻿STATES = {
-	s:STATE_CATTENOM_BASSIN = {
-		create_state = {
-			country = c:FRA
-			owned_provinces = { xD1DDAF x8F8226 xC5F13A }
-		}
-		
-		add_homeland = cu:french
-	}
 	s:STATE_ELBE = {
 		create_state = {
 			country = c:HAM
