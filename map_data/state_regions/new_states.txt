@@ -1,21 +1,4 @@
-# NEW STATES
 
-STATE_CATTENOM_BASSIN = {
-    id = 389
-    subsistence_building = "building_subsistence_pastures"
-    provinces = { "x8F8226" "xC5F13A" "xD1DDAF" }
-    traits = {}
-    city = "xC5F13A"
-    mine = "xD1DDAF"
-    wood = "x8F8226"
-    arable_land = 8
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_iron_mining = 113
-        bg_coal_mining = 63
-        bg_logging = 3
-    }
-}
 STATE_ELBE = {
     id = 58
     subsistence_building = "building_subsistence_farms"
