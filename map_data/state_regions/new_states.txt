@@ -14,3 +14,4 @@ STATE_CATTENOM_BASSIN = {
         bg_iron_mining = 113
         bg_coal_mining = 63
         bg_logging = 3
+        }
