@@ -897,9 +897,9 @@ STATE_GELRE = {
 STATE_WALLONIA = {
     id = 49
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x2D32D7" "x3A5FB9" "x5180A0" "x8080A0" "x916574" "xB0A0C0" "xD001A0" "xEF2040" }
+    provinces = { "x2D32D7" "x3A5FB9" "x8080A0" "x916574" "xB0A0C0" "xD001A0" "xEF2040" }
     traits = { "state_trait_borinage_coalfield" }
-    city = "x5180A0"
+    city = "x8080A0"
     farm = "x916574"
     mine = "xEF2040"
     wood = "x2D32D7"
@@ -1276,14 +1276,14 @@ STATE_BADEN = {
 }
 
 STATE_WESER = {
-    id = 592
+    id = 3165
     subsistence_building = "building_subsistence_farms"
-    provinces = {  }
+    provinces = { xECC3B4 xC00161 x4101E0 xC08061 x68BE66 }
     traits = { }
-    city = "xE0A2B9"
-    farm = "xB08061"
-    mine = "xAEBA2A"
-    wood = "x318061"
+    city = "xECC3B4"
+    farm = "xC00161"
+    mine = "x4101E0"
+    wood = "xC08061"
     arable_land = 50
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
@@ -1291,6 +1291,7 @@ STATE_WESER = {
         bg_iron_mining = 15
         bg_logging = 11
     }
+	naval_exit_id = 3027
 }
 
 STATE_HANNOVER = {
@@ -1344,7 +1345,7 @@ STATE_FRANCONIA = {
     subsistence_building = "building_subsistence_farms"
     provinces = { "x0B0DBA" "x51C0A0" "x9040A0" "xA55FB1" "xD041A0" "xD0C0A0" "xF91154" }
     city = "xD0C0A0"
-    farm = "x648AD1"
+    farm = "x0B0DBA"
     mine = "xF91154"
     wood = "x51C0A0"
     arable_land = 80
@@ -1375,7 +1376,7 @@ STATE_SAXONY = {
 }
 
 STATE_THURINGIA = {
-    id = 991
+    id = 3164
     subsistence_building = "building_subsistence_farms"
     provinces = { "x5141A0" "xD0C021" "xC00A37" "x66FE0A" "x648AD1" "x51C021" }
     traits = { }
