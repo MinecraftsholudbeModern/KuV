@@ -1,0 +1,56 @@
+1. German Unification idea : 
+Normal - elective plus 75% nationalism or frankfurt passed the bill[later in german confd.] but both require schleswig-holstein
+Aldietse Beweging - alt history but dont include will be purely conquest based [give a separate formable tag]
+
+trigger german confd JE
+
+2. N/S German Confederation JE
+ Goal- Prove youre the only unifying candidate whether by force or diplomacy
+ Force: vanilla method
+ Diplomacy: Use german confederation to vote out austria [austria hungary wont automatically kick them out but make their position very unstable]
+ 
+ Event: every nation that is your culture[8 german cultures] will be annexed into yourself OR every nation that is your subject/owes you an obligation/is an insignificant power[for performance] will be annexed too
+        every other nation in broader group[north/south] will become a subject [federation member subject type]
+		
+3. Germany formation
+ Goal- full unification
+ Save: Save unannexed country tags with rank of atleast minor power as variables
+ edge cases: if tag forming germany had austrian support then annex them but release all non-german states[sudeten question - JE or just a separate state?] as puppets
+ Post german unification germany gets a CB on UBD if they exist and had more than 50 support for unification [otherwise we can still establish the baltic protectorate but late-game JE]
+ 
+ Event: Ask if player wishes to continue slightly decentralized path[historical; easy no rewards no JE but a german empire mechanics in JE or separate?] OR centralized [ahistorical; tension filled but rewarding]
+ 
+ 4. Centralized Empire
+ Goal - Unify all german dialects and local resistances
+ Minimum 6 german cultures within border 
+ Main parts to pacify- Saxony Hannover Alsace Bavaria [and franconia?; with events for hohenzollern loacl influence?] Austria if annexed
+ Parameters checked -  Employment[non-peasant]+ SoL+ wealth- literacy[lower and middle +; upper nil] strata[monarchy- upper -ve else upper +ve rest -ve] loyalists+ radicals- 
+ unify into german culture 1 by 1[PC of forming tag will integrate last; initiated by decisions](like eu4)
+ 
+ 5.Decentralized empire
+ goal-none
+ mechanics: You have to keep the unannexed variable states in check if they reach too mcuh power they may secede as an empire member[won't diplo but will weaken nonetheless]
+ Influence of center: Laws[ autocratic +, systematic police; public health; welfare] ,wealth in said states ,loyalists and historical power[variable value depends on diplo state b4 annex]
+Influence of Kingdoms[saved variables]:  laws [oligarchy +; local police; charitable HI; no welfare] , wealth in state x 10 , radicals in state and historical power
+
+6. Royal Prussian Settlement Commission
+STM handles it well ; copy-paste
+
+7. Kulturkampf
+[This needs more of a brainstorm; STM was kinda lacklustre ]
+
+8. The baltic Governate
+Goal: Germanisation of the rest of the baltics
+If not annexed via CB setup a separate kingdom whose ruler is heir of Germany
+Use settlement commision mechanics
+
+9.Mitteleuropa/Eastern coprosperity sphere and ww1 JEs [later]
+
+10. Naval arms race [with power no.1 or largest naval power]
+
+11. Bismack JE
+
+12. Ruhr Industrialisation JEs
+Goal help in ruhr and rhine industrialisation
+Give more mgration attraction and construction efficiencies in return for tough construction goals[how?]
+
