@@ -894,25 +894,7 @@ STATE_GELRE = {
     }
 }
 
-STATE_WALLONIA = {
-    id = 49
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x2D32D7" "x3A5FB9" "x8080A0" "x916574" "xB0A0C0" "xD001A0" "xEF2040" }
-    traits = { "state_trait_borinage_coalfield" }
-    city = "x8080A0"
-    farm = "x916574"
-    mine = "xEF2040"
-    wood = "x2D32D7"
-    arable_land = 55
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_coal_mining = 80
-        bg_iron_mining = 60
-        bg_lead_mining = 30
-        bg_sulfur_mining = 30
-        bg_logging = 17
-    }
-}
+
 
 STATE_FLANDERS = {
     id = 50
@@ -952,11 +934,11 @@ STATE_AUSTRIA = {
 STATE_BOHEMIA = {
     id = 52
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0B9B4F" "x1D6B94" "x2ED2B3" "x400226" "x465A13" "x67FE18" "x716141" "x71E041"  "x81C142" "x9080A0" "x9C175D" "xA40163" "xAFD2D1" "xCDE96E" "xEE1941" "xF06141" "xF0E041" "xFA371D" }
+    provinces = { "x0B9B4F" "x465A13" "x71E041" "x81C142" "x9080A0" "xAFD2D1" "xCDE96E" }
     traits = { "state_trait_elbe_river" }
     city = "x81C142"
-    farm = "x9C175D"
-    mine = "x74C71F"
+    farm = "x0B9B4F"
+    mine = "x71E041"
     wood = "xAFD2D1"
     arable_land = 195
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
@@ -988,10 +970,10 @@ STATE_SUDETEN = {
 STATE_MORAVIA = {
     id = 53
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x08AA4B" "x10DFDF" "x12778D" "x1D088E" "x49C8F7" "x4B3444" "x71E080" "xD9A784" "xEF6080" "xF0E080" }
+    provinces = { "x08AA4B" "x10DFDF" "x49C8F7" "x71E080" "xD9A784" "xEF6080" }
     city = "xD9A784"
     farm = "xEF6080"
-    mine = "x1D088E"
+    mine = "x49C8F7"
     wood = "x12778D"
     arable_land = 80
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
@@ -1151,19 +1133,19 @@ STATE_ANHALT = {
 STATE_RHINELAND = {
     id = 63
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x707505" "x11C021" "x5D7A68" "x904020" "x90C020"  }
+    provinces = { "x707505" "x11C021" "x5D7A68" "x904020" "x90C020" }
     traits = { "state_trait_rhine_river" }
     city = "x904020"
     farm = "x707505"
     mine = "x11C021"
-    wood = "x90C0A0"
+    wood = "x5D7A68"
     arable_land = 55
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 30
         bg_lead_mining = 30
         bg_logging = 11
-		bg_sulfur_mining = 32
+        bg_sulfur_mining = 32
     }
 }
 
@@ -1189,7 +1171,7 @@ STATE_HESSE = {
 STATE_RHINE = {
     id = 64
     subsistence_building = "building_subsistence_farms"
-    provinces = { "xD080A0" "xC1B963"  x5180A0 xD001A0 x29CCD6 x486F6A x518021 x8001E0 x834B66 x9F4072  "x0180E0" "x2101E0" "x5101A0" xD08021 }
+    provinces = { "xD080A0" "xC1B963" x5180A0 xD001A0 x29CCD6 x486F6A x518021 x8001E0 x834B66 x9F4072 "x0180E0" "x2101E0" "x5101A0" xD08021 }
     traits = { "state_trait_rhine_river" "state_trait_ruhr_coalfield" }
     city = "x9F4072"
     farm = "x518021"
@@ -1200,8 +1182,28 @@ STATE_RHINE = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 30
-		bg_lead_mining = 30
+        bg_lead_mining = 30
         bg_logging = 11
+    }
+}
+
+STATE_WALLONIA = {
+    id = 49
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x2D32D7" "x3A5FB9" "x916574" "xB0A0C0" "xEF2040" }
+    traits = { "state_trait_borinage_coalfield" }
+    city = "xB0A0C0"
+    farm = "x916574"
+    mine = "xEF2040"
+    wood = "x2D32D7"
+    arable_land = 55
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 80
+        bg_iron_mining = 60
+        bg_lead_mining = 30
+        bg_sulfur_mining = 30
+        bg_logging = 17
     }
 }
 
@@ -1279,8 +1281,9 @@ STATE_WESER = {
     id = 3165
     subsistence_building = "building_subsistence_farms"
     provinces = { xECC3B4 xC00161 x4101E0 xC08061 x68BE66 }
-    traits = { }
+    traits = {}
     city = "xECC3B4"
+    port = "x418061"
     farm = "xC00161"
     mine = "x4101E0"
     wood = "xC08061"
@@ -1291,7 +1294,7 @@ STATE_WESER = {
         bg_iron_mining = 15
         bg_logging = 11
     }
-	naval_exit_id = 3027
+    naval_exit_id = 3027
 }
 
 STATE_HANNOVER = {
@@ -1379,7 +1382,7 @@ STATE_THURINGIA = {
     id = 3164
     subsistence_building = "building_subsistence_farms"
     provinces = { "x5141A0" "xD0C021" "xC00A37" "x66FE0A" "x648AD1" "x51C021" }
-    traits = { }
+    traits = {}
     city = "x648AD1"
     farm = "xD0C021"
     mine = "xC00A37"
